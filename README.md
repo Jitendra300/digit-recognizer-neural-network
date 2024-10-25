@@ -14,9 +14,10 @@ First we have one input layer which consists of **64** inputs and then we have a
 # Output:
 By keeping the training iterations at **5000** and learning rate (alpha) at **0.01** we saw that our model is nearly **85%** correct at predicting.<br><br>
 ![Output 1](/images/minimalOutcome.png)
-By increasing the training iterations to **20000** we nearly achieve **92%** correction on testing data. <br>
+<br><br>
+By increasing the training iterations to **20000** we nearly achieve **92%** correction on testing data. <br><br>
 ![Output 2](/images/currentMaxOutcome.png)
-    
+<br>
 # More Info:
 Am I cheating by including numpy when this project was supposed to be done from scratch? Well...good question! But how can we ignore the beautiful numpy??? Maybe it can be a future project to do it fully from scratch ;) <br><br>
 Also we are using sklearn cause we need the dataset which includes both image and label. Each image is of **8x8** pixels. <br><br>
