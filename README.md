@@ -21,7 +21,7 @@ First we have one input layer which consists of **64** inputs and then we have a
     python main.py --epoch=50 --learning_rate=0.01 --batch_size=16 --datasplit=1200
     
 # Output:
-By keeping the default values namely epoch=65, learning_rate=0.03, batch_size=8, datasplit=1000 we get an accuracy of 92.8481
+By keeping the default values namely epoch=65, learning_rate=0.03, batch_size=8, datasplit=1000 we get an accuracy of 92.8481 <br>
 ![Output 1](/images/output.png)
 <br><br>
 
