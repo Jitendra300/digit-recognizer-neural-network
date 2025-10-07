@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.datasets import load_digits
 
 # Creating the parser for command arguments
-parser = argparse.ArgumentParser(description='Malware Analysis Program')
+parser = argparse.ArgumentParser(description='8x8 Digit Recognizer Neural Network')
 # Add arguments
 parser.add_argument('--batch_size', type=int, default=8, help='The batch size of the training dataset. Default = 8')
 parser.add_argument('--learning_rate', type=float, default=0.03, help='Learning rate (alpha) of our model. Default = 0.03')
